@@ -1,0 +1,28 @@
+
+.list-icons_professional {
+  display: flex;
+  justify-content: center;
+}
+.icons_professional {
+  cursor: pointer;
+  background-color: #ffffff;
+  box-shadow: -2px 6px 16px -1px #e6e9fd;
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  padding: 13px;
+  margin: 0 auto;
+  color: #091156;
+}
+.icons_professional-fb:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+.icons_professional-tw:hover {
+  background-color: #1da1f2;
+  color: #fff;
+}
+.icons_professional-ins:hover {
+  background-color: #fb679b;
+  color: #fff;
+}

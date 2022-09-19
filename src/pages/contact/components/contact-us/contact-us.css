@@ -1,0 +1,35 @@
+.contact-container {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+input {
+    background-color: white !important;
+    border-radius: 15px;
+    border-color: #d9ddfe;
+    outline: none !important;
+}
+.imgBackgroundContacts {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.contact-input {
+    display: flex;
+    width: 100%;
+}
+.contact-input-bottom {
+    width: 100% !important;
+}
+.css-pfb3sw-MuiInputBase-root-MuiOutlinedInput-root {
+    border-radius: 15px;
+}
+textarea {
+    outline: none;
+}
+.google-maps {
+    position: absolute;
+    left: 0;
+    right: 0;
+}

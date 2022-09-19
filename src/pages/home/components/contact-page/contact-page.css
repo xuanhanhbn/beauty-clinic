@@ -1,0 +1,25 @@
+.contact-container {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.imgBackgroundContact {
+    position: absolute;
+    left: 0;
+    top: 2750px;
+    z-index: -1;
+}
+.contact-input {
+    display: flex;
+}
+.css-pfb3sw-MuiInputBase-root-MuiOutlinedInput-root {
+    border-radius: 15px;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: #d9ddfe;
+}
+
+.css-pfb3sw-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border: 1px solid #d9ddfe;
+}

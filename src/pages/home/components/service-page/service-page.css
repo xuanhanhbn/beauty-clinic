@@ -1,0 +1,17 @@
+.service-section {
+    width: 100%;
+}
+.service-item {
+    height: 443px;
+    background-color: #ffffff;
+    padding: 59px 40px 85px 40px;
+    box-shadow: 0px 25px 50px 25px #f6f7ff;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 42px 42px 42px 42px;
+    z-index: 9;
+}
+.service-item:hover {
+    box-shadow: 0px 25px 50px 25px #eaedff;
+}
+

@@ -1,0 +1,54 @@
+.gallery-title {
+    display: flex;
+}
+.description-gallery-img p {
+    font-size: 16px;
+}
+.list-img_gallery img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all ease 500ms;
+}
+.description-gallery-img strong {
+    color: #091156;
+    font-weight: bolder;
+}
+.touch_container {
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.touch_btn {
+    text-align: center;
+}
+
+.gallery-container{
+    background-image: url('assets/images/gallery/unsplash_eflLpWC1Geo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.background-overlay{
+    height: 100%;
+    background: #091156;
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.css-vj1n65-MuiGrid-root {
+    width: 100%;
+}
+.des_video-gallery p {
+  color: #fff;
+  font-size:16px;
+}
+.icon-play-gallery {
+  color: #fff;
+  cursor: pointer;
+}
+.icon-play-gallery svg {
+  font-size: 90px;
+}
